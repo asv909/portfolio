@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="layout.xsl"?>
+<html>
+	<menukey />
+	<pagename>Сделать запрос по эл.почте</pagename>
+	<head>
+		<title>Запрос по эл.почте | ЕвроТрейд обеспечивает комплексное снабжение промышленных предприятий: основное и вспомогательное производственное оборудование, комплектующие и запсные части, инструмент и расходные материалы</title>
+		<meta name="robots" content="none" />
+		<meta name="description" content="Сделать запрос информации по эл.почте | ООО ЕвроТрейд" />
+		<meta name="keywords" content="гидравлический,гидро,пневматический,пневмо,РТИ,БРС,фитинг,соединение,арматура,крепёж" />
+		<link href="styles/form.css" rel="stylesheet" type="text/css" media="screen" />
+		<cond_comment>
+			[if IE]&gt;&lt;link rel="stylesheet" type="text/css" href="styles/form-ie.css"/&gt;&lt;![endif]
+		</cond_comment>
+		<script src="js/validate.min.js" type="text/javascript"/>
+		<script src="js/form.js" type="text/javascript"/>
+	</head>
+	<body>
+		<div id="attention" class="border_on">
+			<p class="noindent"><span class="underline">Эта страница позволит Вам:</span>
+				<ul>
+					<li>сделать запрос технической информации об интересующей Вас продукции;</li>
+					<li>запросить цены и сроки поставки интересующих Вас товаров;</li>
+					<li>узнать варианты доставки и уточнить местонахождение Вашего заказа;</li>
+					<li>заказать сверку взаимных расчетов, копии или оригиналы бухгалтерских документов;</li>
+					<li>сообщить об ошибках и неполадках в работе сайта.</li>
+				</ul>
+			</p>
+			<p class="noindent">Для ускорения ответа рекомендуем указать № телефона, по которому можно оперативно с Вами связаться.</p>
+			<p class="noindent">( <span class='red'>*</span> - звездочкой помечены обязательные для заполнения поля формы )</p>
+		</div>
+		<form id='inquiry' action='inquiry?event=add' method='post'>
+			<fieldset>
+				<legend>Пожалуйста заполните форму для обратной связи</legend>
+				<p><label class="label" for='surname'>Ваша Фамилия:<span class='red'>*</span></label>
+					<input id='surname' name='surname' type='text' maxlength='20' title='например: Смирнов'/>
+				</p>
+				<p><label class="label" for='name'>Ваше Имя:<span class='red'>*</span></label>
+					<input id='name' name='name' type='text' maxlength='20' title='например: Андрей'/>
+				</p>
+				<p><label class="label" for='pname'>Ваше Отчество:<span class='grey'>*</span></label>
+					<input id='pname' name='pname' type='text' maxlength='20' title='например: Васильевич'/>
+				</p>
+				<p><label class="label" for='firm'>Название Вашего предприятия:<span class='red'>*</span></label>
+					<input id='firm' name='firm' type='text' maxlength='50' title='например: ЗАО "Завод самых лучших изделий"'/>
+				</p>
+				<p id="mail"><label class="label" for='email'>Ваш адрес эл.почты:<span class='red'>*</span></label>
+					<input id='email' name='email' type='text' maxlength='30' title='например: sale@eurotrade-et.ru'/>
+				</p>
+				<p id="tphone"><label class="label">Ваш телефонный номер:<span class='grey'>*</span></label>
+					<label class="shiftUp" for='areaCode'>&#160; Код:<span class='grey'>*</span></label>
+					<input id='areaCode' name='areaCode' type='text' maxlength='5' title='например: 812'/>
+					<label class="shiftUp" for='phoneNum'>&#160; Номер:<span class='grey'>*</span></label>
+					<input id='phoneNum' name='phoneNum' type='text' maxlength='7' title='например: 9405190'/>
+					<label class="shiftUp" for='addNum'>&#160; Доб.№&#160;</label>
+					<input id='addNum' name='addNum' type='text' maxlength='3' title='например: 345'/>
+				</p>
+				<p><span class="label">Предпочитаемый вид связи:<span class='grey'>*</span></span>
+					<input id="e-mail" name="feedback" type="radio" value="e-mail" checked="checked" title="Вы получите наш ответ на вышеуказанный адрес электронной почты"/>
+					<label class="shiftUp" for='e-mail'>&#160; Эл.почта &#160;</label>
+					<input id="call" name="feedback" type="radio" value="phone" title="Мы позвоним Вам на вышеуказанный номер телефона"/>
+					<label class="shiftUp" for='call'>&#160; Телефон (только РФ)</label>
+				</p>
+				<p id="time"><span class="label">Желаемое время звонка:<span class='grey'>*</span></span>
+					<label class="shiftUp" for='fromTime'>&#160; с &#160;</label>
+					<select id='fromTime' name='fromTime' title='Выберите, начиная С КОТОРОГО ЧАСА мы сможем связаться с Вами по вышеуказанному номеру телефона'>
+						<option value='10' selected="selected">10</option>
+						<option value='11'>11</option>
+						<option value='12'>12</option>
+						<option value='13'>13</option>
+						<option value='14'>14</option>
+						<option value='15'>15</option>
+						<option value='16'>16</option>
+						<option value='17'>17</option>
+					</select>
+					<label class="shiftUp" for='toTime'>&#160; до &#160;</label>
+					<select id='toTime' name='toTime' title='Выберите, ДО КОТОРОГО ЧАСА мы сможем связаться с Вами по вышеуказанному номеру телефона'>
+						<option value='11'>11</option>
+						<option value='12'>12</option>
+						<option value='13'>13</option>
+						<option value='14'>14</option>
+						<option value='15'>15</option>
+						<option value='16'>16</option>
+						<option value='17'>17</option>
+						<option value='18' selected="selected">18</option>
+					</select>
+					<span class="note shiftUp">&#160;(по московскому времени)&#160;</span>
+				</p>
+				<p><label class="label" for='subj'>Тема сообщения:<span class='grey'>*</span></label>
+					<select id='subj' name='subj' title='Правильно указанная тема ускорит обработку Вашего запроса'>
+						<option value='10' selected="selected">Пожалуйста, выберите тему из списка: </option>
+							<optgroup label="Отдел продаж">
+							<option value='11'>Технический вопрос</option>
+							<option value='12'>Коммерческий вопрос</option>
+							<option value='13'>Юридический вопрос</option>
+							<option value='14'>Транспортный вопрос</option>
+						</optgroup>
+						<optgroup label="Бухгалтерия">
+							<option value='21'>Взаиморасчеты</option>
+							<option value='22'>Документооборот</option>
+						</optgroup>
+						<optgroup label="Сайт">
+							<option value='31'>Ошибки на сайте</option>
+							<option value='32'>Отзывы и предложения</option>
+						</optgroup>
+						<option value='99'>Другое</option>
+					</select>
+				</p>
+				<p><label class="label" for="msg">Текст сообщения:<span class='red'>*</span></label></p>
+				<p class="clear center">
+					<textarea id='msg' name='msg' rows="9" title="Сообщите пожалуйста дополнительную и/или уточняющую информацию по интересующему Вас вопросу, это ускорит наш ответ"></textarea>
+				</p>
+				<p id="submit"><label class="label" for="asp">Введите специальный код:<span class='red'>*</span></label>
+					<a id="refresh" href='inquiry' title='Если цифры трудно различимы, кликните мышкой на этом изображении чтобы заменить кодовую комбинацию'>
+						<img class="borderoff" src='asp/asp.php' alt=''/>
+					</a>
+					<input id='asp' name='asp' type='text' maxlength='5' title="Пожалуйста, введите в это поле специальный код, изображенный на картинке слева от данного поля. Если картика не видна, попробуйте обновить страницу и/или сообщите нам об этом по адресу web@eurotrade-et.ru"/>
+					<input id='callback' name='callback' type='submit' value='Отправить' title="Отправка запроса в компанию ЕвроТрейд"/>
+					<input id='reset' name='reset' type='reset' value='Очистить' title="Очистить поля формы"/>
+				</p>
+				<p id='error'></p>
+			</fieldset>
+		</form>
+		<div id="attn" class="border_on">
+			<p class="noindent"><span class="red">ВНИМАНИЕ! </span><span class="underline"> Мы не сможем совершить звонок в следующих случаях:</span>
+			</p>
+			<ul>
+				<li>указанный номер не является телефонным номером в пределах РФ;</li>
+				<li>поступило более чем три запроса от одного и того же лица в течение 24 часов;</li>
+				<li>номер, указанный в запросе, не существует или заблокирован.</li>
+			</ul>
+		</div>
+	</body>
+</html>

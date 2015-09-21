@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="layout.xsl"?>
+<html>
+	<menukey />
+		<pagename>Контактная информация</pagename>
+	<head>
+		<title>Контактная информация: АДРЕСА, Телефоны, факсы, E-mail, Графики работы, Схемы проезда.</title>
+		<meta name="description" content="Контактная информация: Адреса ООО Евро Трейд, телефоны, факсы, е-mail, icq, графики работы, схемы проезда в офис ЕвроТрейд" />
+		<meta name="keywords" content="контактная информация евротрейд,адрес евротрейд,телефон евротрейд,факс евротрейд,e-mail евротрейд,график работы евротрейд,cхема проезда в евротрейд,офис евротрейд" />
+	</head>
+	<body>
+		<div id="contact">
+			<h4 style="color:#1F6938">Санкт-Петербург</h4>
+			<p><em>Адрес:</em> <b>ул.Ушинского, д.4, корп.3</b> (<a href="/office_spb" title="Посмотреть расположение на карте">посмотреть на карте</a>)</p>
+			<p><em>График работы:</em> <b>Понедельник - Четверг с 9:00 до 18:00</b><br/>
+            <span style="margin: 0 0 0 125px;"><b>Пятница - с 9:00 до 17:00</b></span><br/>
+            <span style="margin: 0 0 0 125px; color: #EB5D61;">Суббота, Воскресенье</span> - выходные дни</p>
+			<p><em>ICQ:</em> <span style="display: none"><![CDATA[<noindex>]]></span><a 
+href="http://www.icq.com/whitepages/cmd.php?uin=682748848&#38;action=message" 
+rel="nofollow" 
+title="">682748848</a><span style="display: none"><![CDATA[</noindex>]]></span></p>
+			<p><em>E-mail:</em> <span style="display: none"><![CDATA[<noindex>]]></span><a 
+href="mailto:spb@eurotrade-et.ru" 
+rel="nofollow" 
+title="При нажатии на Вашем компьютере будет запущена установленная по умолчанию почтовая программа">spb@eurotrade-et.ru</a><span style="display: none"><![CDATA[</noindex>]]></span></p>
+			<p><em>Телефон:</em> <span style="display: none"><![CDATA[<noindex>]]></span><a 
+href="callto: 8,W8129405190" 
+rel="nofollow" 
+title="">&#160;(812) 956-25-96</a><span style="display: none"><![CDATA[</noindex>]]></span></p>
+			<hr />
+			<h4 style="color:#1F6938">Выборг</h4>
+			<p><em>Адрес:</em> <b>ул.Кузнечная, д.6</b> (<a href="/office_vbg" title="Посмотреть расположение на карте">посмотреть на карте</a>)</p>
+			<p><em>График работы:</em> <b>Понедельник - Четверг с 9:00 до 18:00</b><br/>
+            <span style="margin: 0 0 0 125px;"><b>Пятница - с 9:00 до 17:00</b></span><br/>
+            <span style="margin: 0 0 0 125px; color: #EB5D61;">Суббота, Воскресенье</span> - выходные дни</p>
+			<p><em>E-mail:</em> <span style="display: none"><![CDATA[<noindex>]]></span><a 
+href="mailto:vbg@eurotrade-et.ru" 
+rel="nofollow" 
+title="При нажатии на Вашем компьютере будет запущена установленная по умолчанию почтовая программа">vbg@eurotrade-et.ru</a><span style="display: none"><![CDATA[</noindex>]]></span></p>
+			<p><em>Тел./факс:</em> <span style="display: none"><![CDATA[<noindex>]]></span><a 
+href="callto: 8,W8137891324" 
+rel="nofollow" 
+title="">&#160;(81378) 91-324</a><span style="display: none"><![CDATA[</noindex>]]></span></p>
+			<hr />
+			<h4 style="color:#1F6938">Lappeenranta</h4>
+			<p><em>Адрес:</em> <b>Tullitie, 8B1</b> (<a href="/office_fin" title="Посмотреть расположение на карте">посмотреть на карте</a>)</p>
+			<p><em>График работы:</em> <b>Понедельник - Пятница с 8:00 до 16:00 (местное время)</b><br/>
+            <span style="margin: 0 0 0 125px; color: #EB5D61;">Суббота, Воскресенье</span> - выходные дни</p>
+			<p><em>E-mail:</em> <span style="display: none"><![CDATA[<noindex>]]></span><a 
+href="mailto:fin@eurotrade-et.ru" 
+rel="nofollow" 
+title="При нажатии на Вашем компьютере будет запущена установленная по умолчанию почтовая программа">fin@eurotrade-et.ru</a><span style="display: none"><![CDATA[</noindex>]]></span></p>
+			<p><em>Телефон:</em> <span style="display: none"><![CDATA[<noindex>]]></span><a 
+href="callto: 8,W10358408222066" 
+rel="nofollow" 
+title="">+358 408-222-066</a><span style="display: none"><![CDATA[</noindex>]]></span></p>
+			<hr />			
+		</div>
+	</body>
+</html>

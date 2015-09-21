@@ -1,0 +1,1 @@
+$(document).ready(function(){var ColumnsSet=$(ColSel);$("#page-list").treeview({unique:true,toggle:function(){ColumnsSet.eqHeights()}});ColumnsSet.eqHeights()});

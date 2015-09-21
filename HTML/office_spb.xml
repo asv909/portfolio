@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="layout.xsl"?>
+<html>
+	<menukey />
+		<pagename>Офис ООО "ЕвроТрейд" на Яндекс.Карты.</pagename>
+	<head>
+		<title>Офис ООО "ЕвроТрейд" на Яндекс.Карты.</title>
+		<meta name="description" content='Офис ООО "ЕвроТрейд" на Яндекс.Карты.' />
+		<meta name="keywords" content="cхема проезда,офис евротрейд" />
+	</head>
+	<body>
+		<div id="contact">
+			<h3 style="color:#1F6938">Санкт-Петербург</h3>
+			<span style="display: none"><![CDATA[<noindex>]]></span>
+				<div style="width:600px; height:350px; margin:10px auto">
+					<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=gjdYPj9crELBUzsx3tLdXc2GlKhBti9U"></script>
+				</div>
+			<span style="display: none"><![CDATA[</noindex>]]></span>
+		</div>
+	</body>
+</html>

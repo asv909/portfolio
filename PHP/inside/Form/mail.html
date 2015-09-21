@@ -1,0 +1,69 @@
+<html>
+	 <head>
+		 <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+		 <style>
+			 body { 
+				 font: 13px verdana,arial,helvetica;
+				 color: #695058;
+				}
+			 table {
+				 border: 3px double #DBDBDB;
+				 width: 500;
+				}
+			 tr { background-color: #F8F8F8; }
+			 #msg { background-color: #F2F2F2; }
+			 td { 
+				 font-size: 12px;
+				 text-align: center;
+				 border: 1px solid #DBDBDB;
+				}
+			 #info { background-color: #E4E4E4; }	
+			 #label { width: 160px; }
+			 #value { width: auto; }
+			 .italic { font-style: italic; }
+			 .bold { font-weight: bold; }
+		 </style>
+	 </head>
+	 <body>
+		 <table cellpadding='6' cellspacing='0'>
+			 <tr>
+				 <td id="info" colspan='2'>Сообщение от посетителя сайта <a class="bold italic" href='{url}'>{site}</a></td>
+			 </tr>
+			 <tr>
+				 <td id="label">Отправлено:</td>
+				 <td id="value" class="italic">{sendtime}</td>
+			 </tr>
+			 <tr>
+				 <td>Контактное лицо:</td>
+				 <td class="bold">{person}</td>
+			 </tr>
+			 <tr>
+				 <td>Название предприятия:</td>
+				 <td class="italic">{firm}</td>
+			 </tr>
+			 <tr>
+				 <td>Адрес эл.почты:</td>
+				 <td class="bold">{email}</td>
+			 </tr>
+			 <tr>
+				 <td>Удобный вид связи:</td>
+				 <td class="italic">{feedback}</td>
+			 </tr>
+			 <tr>
+				 <td>Телефон:</td>
+				 <td>Код: <span class="bold">{areaCode}</span> Номер: <span class="bold">{phoneNum}</span> доб.№ <span class="bold">{addNum}</span></td>
+			 </tr>
+			 <tr>
+				 <td>Удобное время звонка:</td>
+				 <td>c {fromTime} до {toTime} (мск)</span> </td>
+			 </tr>
+			 <tr>
+				 <td>Тема:</td>
+				 <td class="bold italic">{subj}</td>
+			 </tr>
+			 <tr id="msg">
+				 <td colspan="2">{msg}</td>
+			 </tr>
+		 </table>
+	 </body>
+</html>

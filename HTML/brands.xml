@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="layout.xsl"?>
+<html>
+	<menukey right1="1" />
+	<pagename>ПРОИЗВОДИТЕЛИ</pagename>
+	<head>
+		<title>Краткий обзор производителей и продукции предлагаемой к поставке | ЕвроТрейд</title>
+		<meta name="description" content="Краткий обзор производителей и продукции предлагаемой к поставке" />
+		<meta name="keywords" content="трубопровод,гидравлик,пневматик,подшипник,электросварка,фильтр,фильтр элемент,рти,резинотехник,CAST S.p.A.,Contarini Leopoldo Srl,уплотнение для гидравлики,ALFAGOMMA S.p.A.,Dunlop,Hiflex,Siemens AG,Flender,редуктор,муфта,мотор-редуктор, электродвигатель,генератор,высокоскоростной редуктор,маслостанция,коническая зубчатая пара,Galtech Oleodinamica S.p.A.,Specma Hydraulic AB, Hymat,Industrias Tecnicas De Valvuleria S.A.,INTEVA,KOBOLD Messring GmbH,измерительный прибор,Groupe Legris Industries,LVI-Dahl Oy,Optibelt GmbH,приводной ремень,шкив,Parker Hannifin Corp.,Ermeto,Semperit AG,промышленный рукав,соединительный шланг,лента для конвейера,транспортёрная лента,соединенительная муфта,уплотнение для подшипника,Teknikum Group Ltd,SKF Group,Teknikum Group Ltd,изоляционный материал,Tiivistekeskus Oy,уплотнение для трубных соединений,TYROLIT Group,абразивная насадка,шлифовальная машина,отрезной круг,резка,шлифовка" />
+	</head>
+	<body>
+		<div id="products">
+			<table>
+				<caption>Таблица соответствия производителей и продукции</caption>
+				<thead>
+					<tr id="thead">
+						<th>Производители</th>
+						<th>Трубопроводы</th>
+						<th>Гидравлика</th>
+						<th>Пневматика</th>
+						<th>Подшипники</th>
+						<th>Электросварка</th>
+						<th>Фильтроэлементы</th>
+						<th>РТИ</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr id="tfoot">
+						<td>Производители</td>
+						<td>Трубопроводы</td>
+						<td>Гидравлика</td>
+						<td>Пневматика</td>
+						<td>Подшипники</td>
+						<td>Электросварка</td>
+						<td>Фильтроэлементы</td>
+						<td>РТИ</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td>CAST S.p.A.</td>
+						<td class="yes" colspan="2"><a href="cast" title="Описание продукции компании 'THE CAST GROUP'">Да</a></td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+					</tr>
+					<tr class="even">
+						<td>Contarini Leopoldo Srl</td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td class="yes1">Уплотнения для гидравлики</td>
+					</tr>
+					<tr>
+						<td>ALFAGOMMA S.p.A. (Dunlop Hiflex)</td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+					</tr>
+					<tr class="even">
+						<td>Siemens AG (Flender)</td>
+						<td colspan="7">Редукторы, муфты, мотор-редуктора, электродвигатели и генераторы, высокоскоростные редукторы, маслостанции, конические зубчатые пары</td>
+					</tr>
+					<tr>
+						<td>Galtech Oleodinamica S.p.A.</td>
+						<td>Нет</td>
+						<td class="yes"><a href="galtech" title="Описание продукции компании Galtech Oleodinamica S.p.A.">Да</a></td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+					</tr>
+					<tr class="even">
+						<td>Specma Hydraulic AB (Hymat) </td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+					</tr>
+					<tr>
+						<td>Industrias Tecnicas De Valvuleria S.A. (INTEVA)</td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+					</tr>
+					<tr class="even">
+						<td>KOBOLD Messring GmbH</td>
+						<td class="yes">Да</td>
+						<td class="yes1" colspan="2">Измерительные приборы</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+					</tr>
+					<tr>
+						<td>Groupe Legris Industries</td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+					</tr>
+					<tr class="even">
+						<td>LVI-Dahl Oy</td>
+						<td class="yes">Да</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+					</tr>
+					<tr>
+						<td>Optibelt GmbH</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td class="yes1">Приводные ремни и шкивы</td>
+					</tr>
+					<tr class="even">
+						<td>Parker Hannifin Corp. (Ermeto)</td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td class="yes">Да</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td class="yes">Да</td>
+						<td class="yes1">Уплотнения</td>
+					</tr>
+					<tr>
+						<td>Semperit AG</td>
+						<td class="yes1">Рукава и шланги</td>
+						<td class="yes1">Соединительные шланги</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td class="yes1">Ремни и ленты для конвейеров</td>
+					</tr>
+					<tr class="even">
+						<td>SKF Group</td>
+						<td>Нет</td>
+						<td class="yes1">Специфические соединения</td>
+						<td>Нет</td>
+						<td class="yes">Да</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td class="yes1">Уплотнения для подшипников</td>
+					</tr>
+					<tr>
+						<td>Teknikum Group Ltd</td>
+						<td class="yes1">Рукава и шланги</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td>Нет</td>
+						<td class="yes1">Изоляционные материалы</td>
+					</tr>
+					<tr class="even">
+						<td>Tiivistekeskus Oy</td>
+						<td class="yes1" colspan="4">Все виды уплотнений для трубных соединений, гидравлики, пневматики, подшипников и др.применений</td>
+						<td></td>
+						<td></td>
+						<td class="yes1">Уплотнения</td>
+					</tr>
+					<tr>
+						<td>TYROLIT Group</td>
+						<td colspan="7">Абразивные насадки для шлифовальных машин (для резки и шлифовки различных материалов)</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

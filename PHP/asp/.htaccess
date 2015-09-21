@@ -1,0 +1,19 @@
+Options -Indexes
+deny from all
+#
+<Files "asp.php">
+Order Deny,Allow
+Allow from all
+</Files>
+#
+<Files "image_req.php">
+Order Deny,Allow
+Allow from all
+</Files>
+#
+#
+<Files "check.php">
+Order Deny,Allow
+Allow from all
+</Files>
+#
